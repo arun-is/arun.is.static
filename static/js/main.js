@@ -22,7 +22,6 @@ function retina() {
 	if (!isRetina())
 		return;
 	Array.prototype.map.call(document.querySelectorAll('img.\\32x'), function(i, image) {
-		console.log(i.src);
 		var path = i.src;
 		
 		path = path.replace(".png", "@2x.png");
