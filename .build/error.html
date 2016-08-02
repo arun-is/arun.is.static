@@ -53,6 +53,30 @@
 	.dark-gray {
 	    color: #999;
 	}
+	.rainbow {
+		-webkit-animation: hue-rotate 60s infinite linear;
+	}
+
+	@-webkit-keyframes hue-rotate {
+		from {
+			-webkit-filter: hue-rotate(0deg);
+		}
+
+		to {
+			-webkit-filter: hue-rotate(-360deg);
+		}
+	}
+
+	.aqua-gradient-bg {
+		background: rgba(127,251,255,1);
+	background: -moz-linear-gradient(-45deg, rgba(127,251,255,1) 0%, rgba(127,191,255,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(127,251,255,1)), color-stop(100%, rgba(127,191,255,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(127,251,255,1) 0%, rgba(127,191,255,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(127,251,255,1) 0%, rgba(127,191,255,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(127,251,255,1) 0%, rgba(127,191,255,1) 100%);
+	background: linear-gradient(135deg, rgba(127,251,255,1) 0%, rgba(127,191,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ffbff', endColorstr='#7fbfff', GradientType=1 );
+	}
 </style>
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
