@@ -1,1 +1,6 @@
-{"port":8857}
+{
+    "aws-access-key": "AKIAJEWS5M3FPZFR7QCA",
+    "aws-bucket-name": "arun.is",
+    "aws-bucket-website": "arun.is.s3-website-us-west-1.amazonaws.com",
+    "port": 8857
+}
